@@ -1,73 +1,78 @@
-body {
-    background-color: #34495e;
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #a2d2ff;
+}
+
+.calculator{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
-#calculator {
-    width: 355px;
-    height: auto;
-    background-color: white;
-    border-radius: 20px;
+form{
+    width: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
-}
-
-.output {
-    min-height: 6rem;
-    max-width: 100%;
-    object-fit: fill;
-    background-color: #e74c3c;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    font-size: 30px;
-    border-radius: 20px 20px 0 0;
+    gap: 2rem;
+    background-color: azure;
+    border: 1px solid #a2d2ff;
+    border-radius: 15px;
+    padding: 15px 10px;
 }
 
-#result {
-    padding: 2rem 3rem;
-    background-color: #e74c3c;
-    border: none;
-    border-radius: 20px;
-}
-
-.keys {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+.display{
+    height: 4rem;
+    font-size: 1rem;
+    color: blue;
     margin: 0;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: #84a59d;
 }
 
-.keys div {
+form .keys{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100% auto;
+}
+
+form .keys div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.keys div button {
-    width: 70px;
-    height: 70px;
-    font-size: 20px;
-    background-color: #34495e;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    margin: 10px 5px;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-}
-
-.firstDiv {
     justify-content: space-between;
+    margin: auto;
+    height: auto;
     width: 100%;
+}
+
+form .keys div input{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: #529786;
+    border: 0;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.operator{
+    
 }
