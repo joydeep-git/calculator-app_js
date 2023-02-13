@@ -71,8 +71,9 @@ form .keys div input{
 
 .red{
     color: red;
+    font-weight: 600;
 }
 
 .operator{
-    
+    font-weight: 900;
 }
