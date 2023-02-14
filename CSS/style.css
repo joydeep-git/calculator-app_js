@@ -26,12 +26,13 @@ form{
     background-color: azure;
     border: 1px solid #a2d2ff;
     border-radius: 15px;
-    padding: 15px 10px;
+    padding: 1rem 1rem;
 }
 
 .display{
-    height: 4rem;
-    font-size: 1rem;
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.5rem;
     color: blue;
     margin: 0;
     padding: 0.5rem;
@@ -57,11 +58,11 @@ form .keys div{
 }
 
 form .keys div input{
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
-    margin: 5px;
-    width: 60px;
-    height: 60px;
+    margin: 0.5rem;
+    width: 4rem;
+    height: 4rem;
     background-color: #529786;
     border: 0;
     align-items: center;
