@@ -39,6 +39,7 @@ form{
     border: 0;
     border-radius: 15px;
     background-color: #84a59d;
+    text-align: right;
 }
 
 form .keys{
